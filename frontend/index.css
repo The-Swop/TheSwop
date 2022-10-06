@@ -74,14 +74,51 @@ html {
 }
 
 .collectionCard {
-    height: 220px;
+    height: 250px;
     width: 200px;
     border: 2px solid black;
     border-radius: 20px;
-    background-color: #505050;
+    background-color: #303030;
     margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
+}
+
+.collectionCard:hover {
+    cursor: pointer;
+    background-color: #404040;
+    transform: scale(1.05);
+}
+
+.collectionCard img {
+    height: 80%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.collectionButtons {
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.collectionButtons button {
+    margin: 5px;
+    background: none;
+    border-radius: 12px;
+    border: 2px solid black;
+    padding: 8px 10px;
+    color: #e7e7e7;
+}
+
+.collectionButtons button:hover {
+    cursor: pointer;
+    background-color: #404040;
+    transform: scale(1.05);
 }
