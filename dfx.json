@@ -1,6 +1,6 @@
 {
   "canisters": {
-    "assets": {
+    "swop-website": {
       "frontend": {
         "entrypoint": "dist/index.html"
       },
