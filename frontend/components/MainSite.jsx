@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react"
 import { PlugWallet } from "../utils/PlugWallet";
 import swopLogo from "../assets/transparent-swop.png";
 import swop64 from "../assets/swop-64x64.png";
+import { NavBar } from "./NavBar";
+
 export function MainSite() {
 
   const redirectToSwop = async () => {
@@ -12,8 +14,8 @@ export function MainSite() {
   return (
     <div className='main'>
       <div className='headerBar'>
-        <h1>Welcome To The Swop</h1>
-        <PlugWallet />
+        <NavBar />
+        {/* <PlugWallet /> */}
       </div>
       <div className='subheader'>
         <img src={swopLogo} />
@@ -23,21 +25,21 @@ export function MainSite() {
         <div className='myCollections'>
         <div className='collectionCard' onClick={redirectToSwop}>
             <img src={swop64} alt='collectionLogo' />
-            <div class='collectionButtons'>
+            <div className='collectionButtons'>
               <button>Entrepot</button>
               <button>Website</button>
             </div>
           </div>
           <div className='collectionCard' onClick={redirectToSwop}>
           <img src={swop64} alt='collectionLogo' />
-            <div class='collectionButtons'>
+            <div className='collectionButtons'>
               <button>Entrepot</button>
               <button>Website</button>
             </div>
           </div>
           <div className='collectionCard' onClick={redirectToSwop}>
           <img src={swop64} alt='collectionLogo' />
-            <div class='collectionButtons'>
+            <div className='collectionButtons'>
               <button>Entrepot</button>
               <button>Website</button>
             </div>
