@@ -15,7 +15,6 @@ export function MainSite() {
     <div className='main'>
       <div className='headerBar'>
         <NavBar />
-        {/* <PlugWallet /> */}
       </div>
       <div className='subheader'>
         <h1>Welcome To</h1>

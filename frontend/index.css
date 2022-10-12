@@ -93,7 +93,7 @@ html {
     display: block;
 }
 
-/* Navbar COmponent Graphical Functions */
+/* Navbar Component Graphical Functions */
 
 .dropdownContent a:hover {
     background-color: #202020;
@@ -162,6 +162,7 @@ html {
     align-items: center;
     margin-bottom: 30px;
     margin-top: 30px;
+    width: 80%;
 }
 
 .collectionCard {

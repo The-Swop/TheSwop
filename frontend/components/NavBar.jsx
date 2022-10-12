@@ -10,27 +10,27 @@ export function NavBar() {
         <div className='menuDropdown'>
           <button className='dropdownButton'>NFTs</button>
           <div className="dropdownContent">
-            <a href='#'>Project 1</a>
-            <a href='#'>Project 2</a>
-            <a href='#'>Project 3</a>
+            <a href='https://twitter.com/the_swop'>Goated Gamer DAO</a>
+            <a href='https://entrepot.app/marketplace/astro-samurai'>Astro Samurai</a>
+            <a href='https://entrepot.app/marketplace/astro-samurai-anime'>Astro Anime</a>
           </div>
         </div>
         {/* Second Menu Dropdown */}
         <div className='menuDropdown'>
           <button className='dropdownButton'>Partners</button>
           <div className="dropdownContent">
-            <a href='#'>Partner 1</a>
-            <a href='#'>Partner 2</a>
-            <a href='#'>Partner 3</a>
+            <a href='https://hx.hyperx.gg/qjg5Ycmb'>HyperX</a>
+            <a href='https://www.razer.com/'>Razer</a>
+            <a href='https://dscvr.one/p/the-swop'>DSCVR</a>
           </div>
         </div>
         {/* Third Menu Dropdown */}
         <div className='menuDropdown'>
           <button className='dropdownButton'>Learn More</button>
           <div className="dropdownContent">
-            <a href='#'>Twitter</a>
-            <a href='#'>Medium</a>
-            <a href='#'>Linktree</a>
+            <a href='https://twitter.com/the_swop'>Twitter</a>
+            <a href='https://theswop.medium.com/'>Medium</a>
+            <a href='https://linktr.ee/theswop'>Linktree</a>
           </div>
         </div>
       </div>

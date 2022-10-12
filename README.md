@@ -1,5 +1,5 @@
 # The Swop Website
-## Version 0.5.0
+## Version 0.5.1
 
 This is the main website for The Swop built in react-js wrapped up for deployment to a canister using dfx.
 
