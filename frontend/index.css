@@ -136,7 +136,7 @@ html {
     height: 70%;
 }
 
-/* My Collections Section */
+/* Collections Component */
 
 .collectionsContainer {
     display: flex;
@@ -179,20 +179,19 @@ html {
 }
 
 .collectionCard:hover {
-    cursor: pointer;
-    background-color: #404040;
-    transform: scale(1.05);
+    border: 2px solid #909090;
 }
 
 .collectionCard img {
-    height: 80%;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    height: 70%;
+    width: auto;
+    margin: auto;
+    border-radius: 12px;
 }
 
 .collectionButtons {
     margin: auto;
+    margin-top: 0px;
     margin-bottom: 10px;
     display: flex;
     flex-direction: row;
@@ -202,6 +201,7 @@ html {
 
 .collectionButtons button {
     margin: 5px;
+    margin-top: 0px;
     background: none;
     border-radius: 12px;
     border: 2px solid black;
