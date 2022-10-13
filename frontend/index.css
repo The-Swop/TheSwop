@@ -166,8 +166,8 @@ html {
 }
 
 .collectionCard {
-    height: 250px;
-    width: 200px;
+    height: auto;
+    width: auto;
     border: 2px solid black;
     border-radius: 20px;
     background-color: #303030;
@@ -183,10 +183,17 @@ html {
 }
 
 .collectionCard img {
-    height: 70%;
-    width: auto;
-    margin: auto;
+    height: 230px;
+    width: 230px;
+    margin: 10px;
     border-radius: 12px;
+}
+
+.collectionCard h1 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .collectionButtons {
