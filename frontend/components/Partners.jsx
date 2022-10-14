@@ -7,7 +7,9 @@ export function Partners() {
 
   return (
     <div className='partnersContainer'>
-      <div class='majorPartnersSection'>
+      <h1>Partners</h1>
+      <div className='separator' />
+      <div className='majorPartnersSection'>
         <img src={hyperX} />
         <img src={razer} />
         <img src={swop64} />

@@ -17,6 +17,7 @@ export function MainSite() {
       </div>
       <Collections />
       <Partners />
+      <div className='footerContainer'></div>
     </div>
   )
 }
