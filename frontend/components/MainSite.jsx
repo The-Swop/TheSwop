@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react"
 import websiteHeader from "../assets/website-header.png";
 import { NavBar } from "./NavBar";
 import { Collections } from "./Collections";
+import { Partners } from "./Partners";
 
 export function MainSite() {
 
@@ -15,6 +16,7 @@ export function MainSite() {
         <img src={websiteHeader} />
       </div>
       <Collections />
+      <Partners />
     </div>
   )
 }

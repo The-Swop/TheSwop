@@ -6,7 +6,7 @@ html, body, #root, .App, .main {
 }
 
 html {
-    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(37,37,37,1) 100%);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(37,37,37,1) 100%) fixed;
     color: #fff;
 }
 
@@ -220,4 +220,35 @@ html {
     cursor: pointer;
     background-color: #404040;
     transform: scale(1.05);
+}
+
+/* Partners Component */
+
+.partnersContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: none;
+}
+
+.majorPartnersSection, .minorPartnersSection {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.majorPartnersSection img {
+    width: 240px;
+    height: 240px;
+    margin: auto;
+}
+
+.minorPartnersSection img {
+    width: 150px;
+    height: 150px;
+    margin: auto;
 }

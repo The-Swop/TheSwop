@@ -1,14 +1,9 @@
 import React, { useEffect, useState } from "react"
-import swop64 from "../assets/swop-64x64.png";
 import goatedGamer from "../assets/icons/goated-gamer.png";
 import astroSamurai from "../assets/icons/astro-samurai.png"
 import astroAnime from "../assets/icons/astro-anime.png";
 
 export function Collections() {
-
-  const redirectToSwop = async () => {
-    window.location.replace("https://twitter.com/the_swop");
-  }
 
   return (
     <div className='collectionsContainer'>
