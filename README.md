@@ -10,7 +10,13 @@ This is the main website for The Swop built in react-js wrapped up for deploymen
 * Node-JS + NPM: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 * DFX 0.11.2: https://internetcomputer.org/docs/current/developer-docs/build/install-upgrade-remove/
 
-First Clone:
+To Clone:
+
+```
+git clone https://github.com/The-Swop/TheSwop.git
+```
+
+After first clone:
 
 Note: During the first setup dfx must generate the vite config during it's build process. You should only have to do this once for setup.
 
