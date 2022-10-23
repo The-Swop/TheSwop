@@ -3,6 +3,7 @@ import websiteHeader from "../assets/website-header.png";
 import { NavBar } from "./NavBar";
 import { Collections } from "./Collections";
 import { Partners } from "./Partners";
+import { Footer } from "./Footer";
 
 export function MainSite() {
 
@@ -17,7 +18,7 @@ export function MainSite() {
       </div>
       <Collections />
       <Partners />
-      <div className='footerContainer'></div>
+      <Footer />
     </div>
   )
 }

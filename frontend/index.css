@@ -6,7 +6,7 @@ html, body, #root, .App, .main {
 }
 
 html {
-    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(37,37,37,1) 100%) fixed;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(32,32,32,1) 100%) fixed;
     color: #fff;
 }
 
@@ -47,7 +47,7 @@ html {
 
 .navbar a {
     color: white;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
@@ -108,10 +108,6 @@ html {
     background-color: #151515;
 }
 
-.navbar a:active {
-    color: #d4af37;
-}
-
 /* Subheader */
 
 .subheader {
@@ -168,9 +164,9 @@ html {
 .collectionCard {
     height: auto;
     width: auto;
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 20px;
-    background-color: #303030;
+    background-color: #252525;
     margin: 20px;
     display: flex;
     flex-direction: column;
@@ -179,7 +175,7 @@ html {
 }
 
 .collectionCard:hover {
-    border: 2px solid #909090;
+    border: 3px solid #909090;
 }
 
 .collectionCard img {
@@ -261,9 +257,47 @@ html {
     margin-right: 20px;
 }
 
+.minorPartnersSection img:hover, .majorPartnersSection img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
 /* Footer Component */
 
 .footerContainer {
-    height: 100px;
+    height: auto;
     width: 100%;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-weight: bold;
+    background-color: #101010;
+}
+
+.footerSigContainer {
+    width: 40%;
+}
+
+.footerSocialsContainer {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.footerSocialsContainer img {
+    margin: 20px;
+}
+
+.footerSocialsContainer img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.footerSigContainer p {
+    float: left;
 }
