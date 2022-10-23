@@ -112,14 +112,13 @@ html {
 
 .subheader {
     height: auto;
-    /* background-color: rgba(255,0,0,0.3); */
     background-color: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 30%;
+    height: 25%;
 }
 
 .subheader h1 {
@@ -141,7 +140,6 @@ html {
     align-items: center;
     width: 100%;
     height: auto;
-    /* background-color: rgba(0,255,0,0.3); */
     background-color: none;
 }
 
@@ -153,12 +151,12 @@ html {
 
 .myCollections {
     display: flex;
-    flex-direction: wrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
     margin-top: 30px;
-    width: 80%;
+    width: 100%;
 }
 
 .collectionCard {
@@ -237,7 +235,7 @@ html {
 
 .majorPartnersSection, .minorPartnersSection {
     display: flex;
-    flex-direction: wrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     margin-top: 20px;
@@ -253,8 +251,7 @@ html {
     width: 150px;
     height: 150px;
     margin: auto;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 20px;
 }
 
 .minorPartnersSection img:hover, .majorPartnersSection img:hover {
