@@ -32,6 +32,9 @@ export function Collections() {
         </div>
       </div>
       </div>
+      <div className='textArea'><p>
+      Our NFTs aim to support our vision by providing holders access to exclusive communities, special rewards, and live events while utilizing some very unique crypto capabilities from the internet computer.  
+      </p></div>
     </div>
   )
 }

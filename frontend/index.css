@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 /* Page Layout */
 
 html, body, #root, .App, .main {
     height: 100%;
     margin: 0;
+    font-family: 'Permanent Marker';
 }
 
 html {
@@ -17,6 +20,40 @@ html {
     margin: 0px;
 }
 
+/* Text Section Styling */
+
+.headerTextArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+}
+
+.textArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+}
+
 /* Header + Navbar Component */
 
 .headerBar {
@@ -29,6 +66,11 @@ html {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.loginContainer {
+    position: absolute;
+    left: 10px;
 }
 
 .navbarContainer {
@@ -119,11 +161,13 @@ html {
     align-items: center;
     width: 100%;
     height: 25%;
+    margin-top: 60px;
 }
 
 .subheader h1 {
     margin-top: 50px;
     font-size: 42px;
+    font-weight: 400;
     margin-bottom: 0;
 }
 
@@ -241,6 +285,10 @@ html {
     margin-top: 20px;
 }
 
+.minorPartnersSection {
+    margin-bottom: 100px;
+}
+
 .majorPartnersSection img {
     width: 300px;
     height: 180px;
@@ -250,7 +298,6 @@ html {
 .minorPartnersSection img {
     width: 150px;
     height: 150px;
-    margin: auto;
     margin: 20px;
 }
 

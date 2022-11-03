@@ -24,6 +24,14 @@ export function Partners() {
         <img onClick={() => { window.location = "https://plethora.game/"; }}src={plethora} />
         <img onClick={() => { window.location = "https://nyph3-wyaaa-aaaap-aaaaa-cai.ic0.app/"; }}src={dragonz} />
       </div>
+      <h1>Connect With Us</h1>
+      <div className="separator"></div>
+      <div className='textArea'><p>
+      We look forward to bringing the entertainment and crypto cultures closer together while working hard to establish platforms and curate genuine communities that enable this vision to come to life.
+      </p></div>
+      <div className='textArea'><p>
+      If you would like to learn more feel free to connect with us using some of our socials below!
+      </p></div>
     </div>
   )
 }
