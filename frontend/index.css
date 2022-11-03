@@ -334,7 +334,9 @@ html {
 }
 
 .footerSocialsContainer img {
-    margin: 20px;
+    margin: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .footerSocialsContainer img:hover {
