@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react"
 import twitterLogo from "../assets/icons/twitterLogo.png"
+import discordLogo from "../assets/icons/discordLogo.png";
 
 export function Footer() {
 
@@ -9,6 +10,7 @@ export function Footer() {
         <p>&#169; The Swop 2022</p>
       </div>
       <div className='footerSocialsContainer'>
+        <img src={discordLogo} />
         <img src={twitterLogo} />
       </div>
     </div>
