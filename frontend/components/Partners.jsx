@@ -6,6 +6,7 @@ import plethora from "../assets/icons/plethora.png";
 import cyman from "../assets/icons/cyman.png";
 import puzzles from "../assets/icons/puzzles.png";
 import dragonz from "../assets/icons/dragonz.png";
+import bigtime from "../assets/icons/bigtime.png";
 
 export function Partners() {
 
@@ -17,6 +18,7 @@ export function Partners() {
         <img onClick={() => { window.location = "https://hx.hyperx.gg/qjg5Ycmb"; }}src={hyperX} />
         <img onClick={() => { window.location = "https://www.razer.com/"; }}src={razer} />
         <img onClick={() => { window.location = "https://dscvr.one/p/the-swop"; }}src={dscvr} />
+        <img onClick={() => { window.location = ""; }}src={bigtime} />
       </div>
       <div className='minorPartnersSection'>
         <img onClick={() => { window.location = "https://entrepot.app/marketplace/cyman"; }}src={cyman} />
