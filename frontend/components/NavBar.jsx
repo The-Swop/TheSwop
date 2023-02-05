@@ -20,8 +20,8 @@ export function NavBar() {
           <button className='dropdownButton'>Partners</button>
           <div className="dropdownContent">
             <a href='https://hx.hyperx.gg/qjg5Ycmb'>HyperX</a>
-            <a href='https://www.razer.com/'>Razer</a>
             <a href='https://dscvr.one/p/the-swop'>DSCVR</a>
+            <a href='https://www.razer.com/'>Bigtime</a>
           </div>
         </div>
         {/* Third Menu Dropdown */}

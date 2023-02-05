@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react"
 import hyperX from "../assets/icons/hyperx.png";
 import razer from "../assets/icons/razer.png";
 import dscvr from "../assets/icons/dscvr-logo.png";
-import plethora from "../assets/icons/plethora.png";
 import cyman from "../assets/icons/cyman.png";
 import puzzles from "../assets/icons/puzzles.png";
-import dragonz from "../assets/icons/dragonz.png";
 import bigtime from "../assets/icons/bigtime.png";
+import outpost from "../assets/icons/outpost.png";
+import vrstl from "../assets/icons/vrstl.png";
 
 export function Partners() {
 
@@ -16,15 +16,13 @@ export function Partners() {
       <div className='separator' />
       <div className='majorPartnersSection'>
         <img onClick={() => { window.location = "https://hx.hyperx.gg/qjg5Ycmb"; }}src={hyperX} />
-        <img onClick={() => { window.location = "https://www.razer.com/"; }}src={razer} />
         <img onClick={() => { window.location = "https://dscvr.one/p/the-swop"; }}src={dscvr} />
-        <img onClick={() => { window.location = ""; }}src={bigtime} />
+        <img onClick={() => { window.location = "https://invite.bigtime.gg/StofAxeCap"; }}src={bigtime} />
       </div>
       <div className='minorPartnersSection'>
-        <img onClick={() => { window.location = "https://entrepot.app/marketplace/cyman"; }}src={cyman} />
-        <img onClick={() => { window.location = "https://5sdab-uiaaa-aaaal-aalgq-cai.ic0.app/"; }}src={puzzles} />
-        <img onClick={() => { window.location = "https://plethora.game/"; }}src={plethora} />
-        <img onClick={() => { window.location = "https://nyph3-wyaaa-aaaap-aaaaa-cai.ic0.app/"; }}src={dragonz} />
+        <img onClick={() => { window.location = "https://entrepot.app/marketplace/cyman"; }} src={cyman} />
+        <img onClick={() => { window.location = ""; }} src={vrstl} />
+        <img onClick={() => { window.location = "";}} src={outpost} />
       </div>
       <h1>Connect With Us</h1>
       <div className="separator"></div>
