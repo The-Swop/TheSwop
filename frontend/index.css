@@ -198,7 +198,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 55%;
     height: 500px;
     background-color: #000;
     border: 2px solid lightblue;
@@ -425,6 +425,12 @@ html {
 }
 
 /* Mobile/Tablet Config */
+
+@media screen and (max-width: 1200px) {
+    .coolContainer {
+        width: 85%;
+    }
+}
 
 @media screen and (max-width: 700px) {
     .textArea {
