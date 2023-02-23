@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React from "react"
 import goatedGamer from "../assets/icons/goated-gamer.png";
 import astroSamurai from "../assets/icons/astro-samurai.png"
 import astroAnime from "../assets/icons/astro-anime.png";
@@ -10,23 +10,23 @@ export function Collections() {
       <h1>Our Collections</h1>
       <div className='separator' />
       <div className='myCollections'>
-      <div className='collectionCard'>
+      <div className='collectionCard' id="cc1">
         <img src={goatedGamer} alt='collectionLogo' />
-        <h1>Goated Gamer DAO</h1>
+        <p>Goated Gamer DAO</p>
         <div className='collectionButtons'>
           <button onClick={() => { window.location = "https://entrepot.app/marketplace/goated-gamer-dao"; }}>Go To Marketplace</button>
         </div>
       </div>
-      <div className='collectionCard'>
+      <div className='collectionCard' id="cc2">
         <img src={astroSamurai} alt='collectionLogo' />
-        <h1>Astro Samurai</h1>
+        <p>Astro Samurai</p>
         <div className='collectionButtons'>
           <button onClick={() => { window.location = "https://entrepot.app/marketplace/astro-samurai"; }}>Go To Marketplace</button>
         </div>
       </div>
-      <div className='collectionCard'>
+      <div className='collectionCard' id="cc3">
         <img src={astroAnime} alt='collectionLogo' />
-        <h1>Astro Anime</h1>
+        <p>Astro Anime</p>
         <div className='collectionButtons'>
           <button onClick={() => { window.location = "https://entrepot.app/marketplace/goated-gamer-dao"; }}>Go To Marketplace</button>
         </div>

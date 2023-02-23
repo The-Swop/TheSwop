@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React from "react"
 
 export function NavBar() {
 
@@ -17,11 +17,10 @@ export function NavBar() {
         </div>
         {/* Second Menu Dropdown */}
         <div className='menuDropdown'>
-          <button className='dropdownButton'>Partners</button>
+          <button className='dropdownButton'>Spaces</button>
           <div className="dropdownContent">
-            <a href='https://hx.hyperx.gg/qjg5Ycmb'>HyperX</a>
-            <a href='https://dscvr.one/p/the-swop'>DSCVR</a>
-            <a href='https://www.razer.com/'>Bigtime</a>
+            <a href='https://twitter.com/TheSwopSpace'>Twitter</a>
+            <a href='https://www.youtube.com/channel/UCqChsQAi_ETFB-5_0kdy9aA'>YouTube</a>
           </div>
         </div>
         {/* Third Menu Dropdown */}
@@ -30,7 +29,7 @@ export function NavBar() {
           <div className="dropdownContent">
             <a href='https://twitter.com/the_swop'>Twitter</a>
             <a href='https://theswop.medium.com/'>Medium</a>
-            <a href='https://linktr.ee/theswop'>Linktree</a>
+            <a href='https://blidq-vaaaa-aaaal-abhqq-cai.ic0.app/The_Swop'>Bink</a>
           </div>
         </div>
       </div>

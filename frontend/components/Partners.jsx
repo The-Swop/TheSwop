@@ -1,9 +1,7 @@
-import React, { useEffect, useState } from "react"
+import React from "react"
 import hyperX from "../assets/icons/hyperx.png";
-import razer from "../assets/icons/razer.png";
 import dscvr from "../assets/icons/dscvr-logo.png";
 import cyman from "../assets/icons/cyman.png";
-import puzzles from "../assets/icons/puzzles.png";
 import bigtime from "../assets/icons/bigtime.png";
 import outpost from "../assets/icons/outpost.png";
 import vrstl from "../assets/icons/vrstl.png";
@@ -21,17 +19,19 @@ export function Partners() {
       </div>
       <div className='minorPartnersSection'>
         <img onClick={() => { window.location = "https://entrepot.app/marketplace/cyman"; }} src={cyman} />
-        <img onClick={() => { window.location = ""; }} src={vrstl} />
-        <img onClick={() => { window.location = "";}} src={outpost} />
+        <img onClick={() => { window.location = "https://twitter.com/vrstlstudios"; }} src={vrstl} />
+        <img onClick={() => { window.location = "https://twitter.com/enteroutpost";}} src={outpost} />
       </div>
-      <h1>Connect With Us</h1>
-      <div className="separator"></div>
-      <div className='textArea'><p>
-      We look forward to bringing the entertainment and crypto cultures closer together while working hard to establish platforms and curate genuine communities that enable this vision to come to life.
-      </p></div>
-      <div className='textArea'><p>
-      If you would like to learn more feel free to connect with us using some of our socials below!
-      </p></div>
+      <div className="connectWithUs">
+        <h1>Connect With Us</h1>
+        <div className="separator"></div>
+        <div className='textArea'><p>
+        We look forward to bringing the entertainment and crypto cultures closer together while working hard to establish platforms and curate genuine communities that enable this vision to come to life.
+        </p></div>
+        <div className='textArea'><p>
+        If you would like to learn more feel free to connect with us using some of our socials below!
+        </p></div>
+      </div>
     </div>
   )
 }
