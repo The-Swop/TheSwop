@@ -6,7 +6,7 @@ export function Spaces() {
     <div className='spaces'>
       <h1>The Swop Spaces</h1>
       <div className='separator'></div>
-      <div className="textArea" style={{width: "55%", marginTop: "20px"}} >
+      <div className="textArea">
         <p>The Swop Spaces aim to provide a comfortable and educational platform for project exploration and community discussions. Feel free to listen into some of our recorded spaces below!</p>
       </div>
       <div className="coolContainer">
