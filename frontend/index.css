@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 /* Page Layout */
 
@@ -35,7 +36,8 @@ html {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    font-weight: 400;
+    font-weight: bold;
+    font-family: 'Rubik';
 }
 
 .textArea {
@@ -51,6 +53,7 @@ html {
     margin-left: auto;
     margin-right: auto;
     font-weight: 400;
+    font-family: 'Rubik';
 }
 
 /* Header + Navbar Component */
