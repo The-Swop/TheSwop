@@ -2,6 +2,7 @@ import React from "react"
 import goatedGamer from "../assets/icons/goated-gamer.png";
 import astroSamurai from "../assets/icons/astro-samurai.png"
 import astroAnime from "../assets/icons/astro-anime.png";
+import swopOG from "../assets/icons/swop-og.png";
 
 export function Collections() {
 
@@ -15,6 +16,13 @@ export function Collections() {
         <p>Goated Gamer DAO</p>
         <div className='collectionButtons'>
           <button onClick={() => { window.location = "https://entrepot.app/marketplace/goated-gamer-dao"; }}>Go To Marketplace</button>
+        </div>
+      </div>
+      <div className='collectionCard' id="cc4">
+        <img src={swopOG} alt='collectionLogo' />
+        <p>The Swop OG</p>
+        <div className='collectionButtons'>
+          <button onClick={() => window.location = "https://entrepot.app/sale/the-swop-og"}>Go To Marketplace</button>
         </div>
       </div>
       <div className='collectionCard' id="cc2">
@@ -33,7 +41,7 @@ export function Collections() {
       </div>
       </div>
       <div className='textArea'><p>
-      Our NFTs aim to support our vision by providing holders access to exclusive communities, special rewards, and live events while utilizing some very unique crypto capabilities from the internet computer.  
+      Our NFTs aim to support our vision by providing holders access to exclusive communities and live events while utilizing some very unique capabilities from the internet computer.  
       </p></div>
     </div>
   )

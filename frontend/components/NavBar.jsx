@@ -10,6 +10,7 @@ export function NavBar() {
         <div className='menuDropdown'>
           <button className='dropdownButton'>NFTs</button>
           <div className="dropdownContent">
+            <a href='https://entrepot.app/sale/the-swop-og'>The Swop OG</a>
             <a href='https://entrepot.app/marketplace/goated-gamer-dao'>Goated Gamer DAO</a>
             <a href='https://entrepot.app/marketplace/astro-samurai'>Astro Samurai</a>
             <a href='https://entrepot.app/marketplace/astro-samurai-anime'>Astro Anime</a>

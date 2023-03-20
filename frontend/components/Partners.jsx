@@ -5,6 +5,7 @@ import cyman from "../assets/icons/cyman.png";
 import bigtime from "../assets/icons/bigtime.png";
 import outpost from "../assets/icons/outpost.png";
 import vrstl from "../assets/icons/vrstl.png";
+import infinity from "../assets/icons/infinity.png";
 
 export function Partners() {
 
@@ -16,6 +17,7 @@ export function Partners() {
         <img onClick={() => { window.location = "https://hx.hyperx.gg/qjg5Ycmb"; }}src={hyperX} />
         <img onClick={() => { window.location = "https://dscvr.one/p/the-swop"; }}src={dscvr} />
         <img onClick={() => { window.location = "https://invite.bigtime.gg/StofAxeCap"; }}src={bigtime} />
+        <img onClick={() => { window.location = "https://infinityswap.one/"; }}src={infinity} />
       </div>
       <div className='minorPartnersSection'>
         <img onClick={() => { window.location = "https://entrepot.app/marketplace/cyman"; }} src={cyman} />
