@@ -16,17 +16,9 @@ Collections Section:
 
 Partners Section:
 
-Minor: Bitfinity Network, Cyman, Bigtime, HyperX
-Major: Inside Dark Studio, DSCVR, Boxy
-Needs resources: Boxy, IDS, Bitfinity
-Needs resource updates:
-
-- BigTime to minor.
-- HyperX to minor.
-
-Other updates:
-
-- Removal of Outpost and VRSTL from partners section.
+Minor: Bitfinity Network
+Major: Inside Dark Studio
+Needs resources: IDS, Bitfinity
 
 Socials Updates:
 

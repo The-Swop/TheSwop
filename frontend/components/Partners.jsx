@@ -3,9 +3,8 @@ import hyperX from "../assets/icons/hyperx.png";
 import dscvr from "../assets/icons/dscvr-logo.png";
 import cyman from "../assets/icons/cyman.png";
 import bigtime from "../assets/icons/bigtime.png";
-import outpost from "../assets/icons/outpost.png";
-import vrstl from "../assets/icons/vrstl.png";
 import infinity from "../assets/icons/infinity.png";
+import boxy from "../assets/icons/boxy.png";
 
 export function Partners() {
 
@@ -14,15 +13,14 @@ export function Partners() {
       <h1>Partners</h1>
       <div className='separator' />
       <div className='majorPartnersSection'>
-        <img onClick={() => { window.location = "https://hx.hyperx.gg/qjg5Ycmb"; }}src={hyperX} />
         <img onClick={() => { window.location = "https://dscvr.one/p/the-swop"; }}src={dscvr} />
-        <img onClick={() => { window.location = "https://invite.bigtime.gg/StofAxeCap"; }}src={bigtime} />
+        <img onClick={() => { window.location = "https://dscvr.one/p/the-swop"; }}src={boxy} />
         <img onClick={() => { window.location = "https://infinityswap.one/"; }}src={infinity} />
       </div>
       <div className='minorPartnersSection'>
+        <img onClick={() => { window.location = "https://invite.bigtime.gg/StofAxeCap"; }}src={bigtime} />
         <img onClick={() => { window.location = "https://entrepot.app/marketplace/cyman"; }} src={cyman} />
-        <img onClick={() => { window.location = "https://twitter.com/vrstlstudios"; }} src={vrstl} />
-        <img onClick={() => { window.location = "https://twitter.com/enteroutpost";}} src={outpost} />
+        <img onClick={() => { window.location = "https://hx.hyperx.gg/qjg5Ycmb"; }}src={hyperX} />
       </div>
       <div className="connectWithUs">
         <h1>Connect With Us</h1>

@@ -367,13 +367,15 @@ html {
 }
 
 .majorPartnersSection img {
-    width: 300px;
-    height: 180px;
+    min-width: 150px;
+    max-width: 575px;
+    height: 150px;
     margin: 20px;
 }
 
 .minorPartnersSection img {
-    width: 150px;
+    min-width: 150px;
+    max-width: 575px;
     height: 150px;
     margin: 20px;
 }
