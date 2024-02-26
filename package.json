@@ -1,16 +1,17 @@
 {
-  "name": "swop",
-  "version": "0.9.3",
+  "name": "swop-wbsite",
+  "version": "0.9.4",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "deploy-ic": "dfx deploy --network ic"
+    "deploy-ic": "dfx deploy --network ic",
+    "setup": "npm install && npm audit fix && dfx start --clean --background && dfx deploy && dfx stop && echo 'Setup complete!'"
   },
   "dependencies": {
-    "@dfinity/agent": "0.15.4",
-    "@dfinity/principal": "0.15.4",
-    "@dfinity/candid": "0.15.4",
+    "@dfinity/agent": "0.19.3",
+    "@dfinity/principal": "0.19.3",
+    "@dfinity/candid": "0.19.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },

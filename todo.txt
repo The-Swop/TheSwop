@@ -1,0 +1,34 @@
+Header / Navbar:
+
+- Restructure navbar to load components as pages on demand.
+
+Body / Content Updates:
+
+- Create a section for goated gamer on the site, place it above the spaces section.
+- Create an additional section for the OG avatar drop.
+- Lessen the relevance on the website of The Swop spaces area.
+
+
+Collections Section:
+
+- Update collections with relevant data, add current NFTs with links and information.
+- Create an entry for the goldclaw drop, leave at "coming soon..."
+
+Partners Section:
+
+Minor: Bitfinity Network, Cyman, Bigtime, HyperX
+Major: Inside Dark Studio, DSCVR, Boxy
+Needs resources: Boxy, IDS, Bitfinity
+Needs resource updates:
+
+- BigTime to minor.
+- HyperX to minor.
+
+Other updates:
+
+- Removal of Outpost and VRSTL from partners section.
+
+Socials Updates:
+
+- Add dedicated social links.
+- Add web3 dedicated social links section.
