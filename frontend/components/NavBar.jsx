@@ -2,36 +2,37 @@ import React from "react"
 
 export function NavBar() {
 
+  const comingSoon = async() => {
+    alert("Coming Soon!")
+  }
+
+  const createPopup = async() => {
+    const div = document.createElement('div');
+  }
+
   return (
     <div className='navbarContainer'>
       <div className='navbar'>
         <a className='activeButton' href="#">Home</a>
         {/* First Menu Dropdown */}
         <div className='menuDropdown'>
-          <button className='dropdownButton'>NFTs</button>
-          <div className="dropdownContent">
-            <a href='https://entrepot.app/sale/the-swop-og'>The Swop OG</a>
-            <a href='https://entrepot.app/marketplace/goated-gamer-dao'>Goated Gamer DAO</a>
-            <a href='https://entrepot.app/marketplace/astro-samurai'>Astro Samurai</a>
-            <a href='https://entrepot.app/marketplace/astro-samurai-anime'>Astro Anime</a>
-          </div>
+          <button onClick={comingSoon} className='dropdownButton'>Gaming</button>
         </div>
         {/* Second Menu Dropdown */}
         <div className='menuDropdown'>
-          <button className='dropdownButton'>Spaces</button>
-          <div className="dropdownContent">
-            <a href='https://twitter.com/TheSwopSpace'>Twitter</a>
-            <a href='https://www.youtube.com/channel/UCqChsQAi_ETFB-5_0kdy9aA'>YouTube</a>
-          </div>
+          <button onClick={comingSoon} className='dropdownButton'>News</button>
         </div>
         {/* Third Menu Dropdown */}
         <div className='menuDropdown'>
-          <button className='dropdownButton'>Learn More</button>
-          <div className="dropdownContent">
-            <a href='https://twitter.com/the_swop'>Twitter</a>
-            <a href='https://theswop.medium.com/'>Medium</a>
-            <a href='https://blidq-vaaaa-aaaal-abhqq-cai.ic0.app/The_Swop'>Bink</a>
-          </div>
+          <button onClick={comingSoon} className='dropdownButton'>Education</button>
+        </div>
+        {/* Fourth Menu Dropdown */}
+        <div className='menuDropdown'>
+          <button onClick={comingSoon} className='dropdownButton'>Community</button>
+        </div>
+        {/* Fifth Menu Dropdown */}
+        <div className='menuDropdown'>
+          <button onClick={comingSoon} className='dropdownButton'>About Us</button>
         </div>
       </div>
     </div>
