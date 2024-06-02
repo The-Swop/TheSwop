@@ -1,10 +1,10 @@
 import React from "react"
-import hyperX from "../assets/icons/hyperx.png";
-import dscvr from "../assets/icons/dscvr-logo.png";
-import cyman from "../assets/icons/cyman.png";
-import bigtime from "../assets/icons/bigtime.png";
-import infinity from "../assets/icons/infinity.png";
-import boxy from "../assets/icons/boxy.png";
+import hyperX from "../../assets/icons/hyperx.png";
+import dscvr from "../../assets/icons/dscvr-logo.png";
+import cyman from "../../assets/icons/cyman.png";
+import bigtime from "../../assets/icons/bigtime.png";
+import infinity from "../../assets/icons/infinity.png";
+import boxy from "../../assets/icons/boxy.png";
 
 export function Partners() {
 

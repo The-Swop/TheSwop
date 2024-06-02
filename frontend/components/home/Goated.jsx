@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import goated from "../assets/goated-banner-v1.png";
+import goated from "../../assets/goated-banner-v1.png";
 
 export function Goated() {
 
@@ -11,7 +11,7 @@ export function Goated() {
       <div className="textArea">
         <p>Goated Gamer is a competitive gaming platform aimed towards unifying the web3 universe with games and gamers of all types.</p>
       </div>
-      <button onClick={() => alert("Coming Soon!")}>Get Goated!</button>
+      <button onClick={() => alert("nah")}>Get Goated!</button>
     </div>
   )
 }

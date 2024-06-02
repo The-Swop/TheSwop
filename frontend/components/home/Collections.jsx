@@ -1,8 +1,8 @@
 import React from "react"
-import goatedGamer from "../assets/icons/goated-gamer.png";
-import astroSamurai from "../assets/icons/astro-samurai.png"
-import astroAnime from "../assets/icons/astro-anime.png";
-import swopOG from "../assets/icons/swop-og.png";
+import goatedGamer from "../../assets/icons/goated-gamer.png";
+import astroSamurai from "../../assets/icons/astro-samurai.png"
+import astroAnime from "../../assets/icons/astro-anime.png";
+import swopOG from "../../assets/icons/swop-og.png";
 
 export function Collections() {
 

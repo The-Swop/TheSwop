@@ -1,6 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import MainSite from "./components/MainSite"
+import MainSite from "./MainSite"
 import "./index.css"
 
 ReactDOM.render(
