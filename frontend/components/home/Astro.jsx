@@ -14,7 +14,7 @@ export function Astro() {
 
   // Run this function after login succeeds to generate an interface for the user to claim their files from the EXT standard based NFT smart contract.
   const loadInventory = async() => {
-    
+    alert("The inventory will be loaded here!");
   }
 
   const handleLogin = async(provider) => {
@@ -27,6 +27,9 @@ export function Astro() {
     const actor = await CreateActor(userObject.agent, idl, canisterId);
     setActor(actor);
     console.log("Logged In!");
+    const overlay = document.getElementById('loginOverlay');
+    overlay.remove();
+    await loadInventory();
   }
 
   const generateLoginMenu = async() => {
